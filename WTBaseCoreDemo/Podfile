@@ -1,7 +1,0 @@
-platform :ios,'8.0'
-inhibit_all_warnings!
-
-target "WTBaseCoreDemo" do
-pod 'WTBaseCore', :git => "https://github.com/jienliang000/WTBaseCore.git"
-end
-
