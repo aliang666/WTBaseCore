@@ -28,7 +28,7 @@
     else if([self isKindOfClass:[NSString class]]){
         return self;
     } else if ([self isKindOfClass:[NSNumber class]]) {
-        return [self stringValue];
+        return [((NSNumber *)self) stringValue];
     }
     return [self trim];
 }
