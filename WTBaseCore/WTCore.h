@@ -12,5 +12,6 @@
 #import "WTAppDelegate.h"
 #import "UIView+Category.h"
 #import "NSString+Category.h"
+#import "UIButton+Category.h"
 
 #endif
