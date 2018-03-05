@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F14904204CF2C200D5E74F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F14903204CF2C200D5E74F /* AppDelegate.m */; };
+		84F1490C204CF2C200D5E74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F1490B204CF2C200D5E74F /* Assets.xcassets */; };
+		84F14912204CF2C200D5E74F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F14911204CF2C200D5E74F /* main.m */; };
+		84F1491A204CF3EF00D5E74F /* WTLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F14919204CF3EF00D5E74F /* WTLaunchViewController.m */; };
+		C627AFD8A466C88CEE5832D3 /* libPods-WTBaseCoreDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A3052C106CB561238685B6 /* libPods-WTBaseCoreDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69535DEEB8AB553FB72EFDC0 /* Pods-WTBaseCoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBaseCoreDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTBaseCoreDemo/Pods-WTBaseCoreDemo.release.xcconfig"; sourceTree = "<group>"; };
+		78A3052C106CB561238685B6 /* libPods-WTBaseCoreDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTBaseCoreDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F148FF204CF2C200D5E74F /* WTBaseCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTBaseCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F14902204CF2C200D5E74F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F14903204CF2C200D5E74F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F1490B204CF2C200D5E74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F14910204CF2C200D5E74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F14911204CF2C200D5E74F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F14918204CF3EF00D5E74F /* WTLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTLaunchViewController.h; sourceTree = "<group>"; };
+		84F14919204CF3EF00D5E74F /* WTLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTLaunchViewController.m; sourceTree = "<group>"; };
+		CDED59F8FF2D5E7EA24776CB /* Pods-WTBaseCoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBaseCoreDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTBaseCoreDemo/Pods-WTBaseCoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F148FC204CF2C200D5E74F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C627AFD8A466C88CEE5832D3 /* libPods-WTBaseCoreDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7232E42020F82B43F017CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78A3052C106CB561238685B6 /* libPods-WTBaseCoreDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F148F6204CF2C200D5E74F = {
+			isa = PBXGroup;
+			children = (
+				84F14901204CF2C200D5E74F /* WTBaseCoreDemo */,
+				84F14900204CF2C200D5E74F /* Products */,
+				CF5909D49F7683DAA83D9C72 /* Pods */,
+				5D7232E42020F82B43F017CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F14900204CF2C200D5E74F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F148FF204CF2C200D5E74F /* WTBaseCoreDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F14901204CF2C200D5E74F /* WTBaseCoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84F14902204CF2C200D5E74F /* AppDelegate.h */,
+				84F14903204CF2C200D5E74F /* AppDelegate.m */,
+				84F14918204CF3EF00D5E74F /* WTLaunchViewController.h */,
+				84F14919204CF3EF00D5E74F /* WTLaunchViewController.m */,
+				84F1490B204CF2C200D5E74F /* Assets.xcassets */,
+				84F14910204CF2C200D5E74F /* Info.plist */,
+				84F14911204CF2C200D5E74F /* main.m */,
+			);
+			path = WTBaseCoreDemo;
+			sourceTree = "<group>";
+		};
+		CF5909D49F7683DAA83D9C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDED59F8FF2D5E7EA24776CB /* Pods-WTBaseCoreDemo.debug.xcconfig */,
+				69535DEEB8AB553FB72EFDC0 /* Pods-WTBaseCoreDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F148FE204CF2C200D5E74F /* WTBaseCoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F14915204CF2C200D5E74F /* Build configuration list for PBXNativeTarget "WTBaseCoreDemo" */;
+			buildPhases = (
+				AAF9A1F6D358FEABF43B92DA /* [CP] Check Pods Manifest.lock */,
+				84F148FB204CF2C200D5E74F /* Sources */,
+				84F148FC204CF2C200D5E74F /* Frameworks */,
+				84F148FD204CF2C200D5E74F /* Resources */,
+				669255B0D41A47450766E6AB /* [CP] Embed Pods Frameworks */,
+				31A2CDD0915008EDD0BDC61E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTBaseCoreDemo;
+			productName = WTBaseCoreDemo;
+			productReference = 84F148FF204CF2C200D5E74F /* WTBaseCoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F148F7204CF2C200D5E74F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84F148FE204CF2C200D5E74F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84F148FA204CF2C200D5E74F /* Build configuration list for PBXProject "WTBaseCoreDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F148F6204CF2C200D5E74F;
+			productRefGroup = 84F14900204CF2C200D5E74F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F148FE204CF2C200D5E74F /* WTBaseCoreDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F148FD204CF2C200D5E74F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F1490C204CF2C200D5E74F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A2CDD0915008EDD0BDC61E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTBaseCoreDemo/Pods-WTBaseCoreDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669255B0D41A47450766E6AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTBaseCoreDemo/Pods-WTBaseCoreDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF9A1F6D358FEABF43B92DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WTBaseCoreDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F148FB204CF2C200D5E74F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F14912204CF2C200D5E74F /* main.m in Sources */,
+				84F14904204CF2C200D5E74F /* AppDelegate.m in Sources */,
+				84F1491A204CF3EF00D5E74F /* WTLaunchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84F14913204CF2C200D5E74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84F14914204CF2C200D5E74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F14916204CF2C200D5E74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDED59F8FF2D5E7EA24776CB /* Pods-WTBaseCoreDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5EQM97VAW;
+				INFOPLIST_FILE = WTBaseCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jienliang.WTBaseCoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F14917204CF2C200D5E74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69535DEEB8AB553FB72EFDC0 /* Pods-WTBaseCoreDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5EQM97VAW;
+				INFOPLIST_FILE = WTBaseCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jienliang.WTBaseCoreDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F148FA204CF2C200D5E74F /* Build configuration list for PBXProject "WTBaseCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F14913204CF2C200D5E74F /* Debug */,
+				84F14914204CF2C200D5E74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F14915204CF2C200D5E74F /* Build configuration list for PBXNativeTarget "WTBaseCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F14916204CF2C200D5E74F /* Debug */,
+				84F14917204CF2C200D5E74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F148F7204CF2C200D5E74F /* Project object */;
+}
