@@ -15,5 +15,5 @@
 #import "UIButton+Category.h"
 #import "WTFile.h"
 #import "WTUtil.h"
-
+#import "WTDefine.h"
 #endif
