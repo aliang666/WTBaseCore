@@ -10,5 +10,6 @@
 #define WTCore_h
 
 #import "WTAppDelegate.h"
+#import "UIView+Category.h"
 
 #endif
