@@ -1,0 +1,14 @@
+//
+//  WTCore.h
+//  WTBaseCore
+//
+//  Created by jienliang on 17/6/23.
+//  Copyright (c) 2017年 jienliang. All rights reserved.
+//
+
+#ifndef WTCore_h
+#define WTCore_h
+
+#import "WTAppDelegate.h"
+
+#endif
