@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'YYWebImage',  '~> 1.0.5'
+  s.dependency 'FDFullscreenPopGesture',  '~> 1.1'
+
 
   s.source       = { :git => "https://github.com/jienliang000/WTBaseCore.git", :tag => "#{s.version}" }
   s.source_files  = "WTBaseCore/*.{h,m}"
@@ -31,5 +33,16 @@ Pod::Spec.new do |s|
   s.subspec 'CoreUtil' do |ss|
   ss.source_files = 'WTBaseCore/CoreUtil/**/*.{h,m,c,mm}'
   end
+
+  s.subspec 'CoreRes' do |ss|
+  ss.source_files = 'WTBaseCore/CoreRes/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'CoreController' do |ss|
+  ss.source_files = 'WTBaseCore/CoreController/**/*.{h,m,c,mm}'
+  end
+
+
+
 
 end
