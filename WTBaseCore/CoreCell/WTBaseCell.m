@@ -7,7 +7,7 @@
 //
 #import "WTBaseCell.h"
 #import "WTDefine.h"
-#import "UIView+Additions.h"
+#import "UIView+Category.h"
 @implementation WTBaseItem
 - (id)init{
      if (self = [super init]) {
