@@ -30,5 +30,7 @@
 #import "RETableViewSection.h"
 
 #import "UINavigationController+FDFullscreenPopGesture.h"
+#import "WTBaseCell.h"
+#import "WTEmptyCell.h"
 
 #endif
