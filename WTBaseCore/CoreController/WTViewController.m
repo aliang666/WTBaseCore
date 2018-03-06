@@ -9,7 +9,7 @@
 #import "WTViewController.h"
 #import "WTDefine.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
-#import "NSBundle+WTLibrary.h"
+#import "NSBundle+WTBaseCore.h"
 
 @interface WTViewController ()
 
