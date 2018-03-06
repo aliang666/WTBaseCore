@@ -19,5 +19,6 @@
 #import "UIImageView+Category.h"
 #import "WTNavBar.h"
 #import "WTTextField.h"
+#import "WTViewController.h"
 
 #endif
