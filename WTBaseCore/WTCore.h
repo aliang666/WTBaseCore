@@ -32,5 +32,5 @@
 #import "UINavigationController+FDFullscreenPopGesture.h"
 #import "WTBaseCell.h"
 #import "WTEmptyCell.h"
-
+#import "WTCountDownButton.h"
 #endif
