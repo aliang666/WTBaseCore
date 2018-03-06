@@ -15,4 +15,9 @@
 #import "WTFile.h"
 #import "WTUtil.h"
 #import "WTDefine.h"
+#import "UIButton+Block.h"
+#import "UIImageView+Category.h"
+#import "WTNavBar.h"
+#import "WTTextField.h"
+
 #endif
