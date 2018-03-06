@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/jienliang000/WTBaseCore.git", :tag => "#{s.version}" }
   s.source_files  = "WTBaseCore/*.{h,m}"
+  s.resource     = 'WTBaseCore/CoreRes/WTBaseCore.bundle'
 
 
   s.subspec 'CoreUI' do |ss|
