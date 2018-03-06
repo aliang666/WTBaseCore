@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WTCore.h>
 
-@interface WTLaunchViewController : UIViewController
+@interface WTLaunchViewController : WTViewController
 
 @end

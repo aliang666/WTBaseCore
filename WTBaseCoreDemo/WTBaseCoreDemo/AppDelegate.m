@@ -16,15 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [super application:application didFinishLaunchingWithOptions:launchOptions];
-    //创建主窗口
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
+    [super application:application didFinishLaunchingWithOptions:launchOptions];    
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[WTLaunchViewController new]];
     self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
