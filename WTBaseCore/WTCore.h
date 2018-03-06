@@ -21,4 +21,12 @@
 #import "WTTextField.h"
 #import "WTViewController.h"
 
+//RETableViewManager
+#import "REActionBar.h"
+#import "RETableViewCell.h"
+#import "RETableViewManager.h"
+#import "RETableViewItem.h"
+#import "RETableViewCellStyle.h"
+#import "RETableViewSection.h"
+
 #endif
