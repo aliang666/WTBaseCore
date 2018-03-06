@@ -12,7 +12,6 @@
 #import "WTAppDelegate.h"
 #import "UIView+Category.h"
 #import "NSString+Category.h"
-#import "UIButton+Category.h"
 #import "WTFile.h"
 #import "WTUtil.h"
 #import "WTDefine.h"
