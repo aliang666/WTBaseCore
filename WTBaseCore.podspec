@@ -24,6 +24,12 @@ Pod::Spec.new do |s|
   s.source_files  = "WTBaseCore/*.{h,m}"
 
 
+  s.subspec 'CoreUI' do |ss|
+  ss.source_files = 'WTBaseCore/CoreUI/**/*.{h,m,c,mm}'
+  end
 
+  s.subspec 'CoreUtil' do |ss|
+  ss.source_files = 'WTBaseCore/CoreUtil/**/*.{h,m,c,mm}'
+  end
 
 end
