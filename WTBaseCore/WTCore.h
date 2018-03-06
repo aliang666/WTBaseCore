@@ -29,4 +29,6 @@
 #import "RETableViewCellStyle.h"
 #import "RETableViewSection.h"
 
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
 #endif
