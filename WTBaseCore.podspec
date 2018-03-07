@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'YYWebImage',  '~> 1.0.5'
   s.dependency 'FDFullscreenPopGesture',  '~> 1.1'
-
+  s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
+  
 
   s.source       = { :git => "https://github.com/jienliang000/WTBaseCore.git", :tag => "#{s.version}" }
   s.source_files  = "WTBaseCore/*.{h,m}"
