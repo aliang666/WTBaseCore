@@ -22,6 +22,11 @@
     self.navBar.title = @"首页";
     self.navBar.leftItemList = nil;
     [self buildCountDown];
+    [WTHttpUtil POSTWithURL:@"http://c.m.163.com/nc/ad/headline/0-4.html" parameters:nil success:^(id responseObject) {
+        NSLog(@"aaaaa");
+    } failure:^(NSError *error) {
+        NSLog(@"bbbb");
+    }];
 }
 
 - (void)buildCountDown {
