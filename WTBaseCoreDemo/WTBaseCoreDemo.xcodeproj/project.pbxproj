@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848101F62050016E0021F05A /* WTIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848101F52050016E0021F05A /* WTIndexViewController.m */; };
+		848101F9205001CD0021F05A /* WTCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848101F8205001CD0021F05A /* WTCenterViewController.m */; };
+		848101FC2050020E0021F05A /* WTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848101FB2050020E0021F05A /* WTMineViewController.m */; };
+		84810204205002860021F05A /* ind_btn_tab_news_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 848101FE205002860021F05A /* ind_btn_tab_news_n.png */; };
+		84810205205002860021F05A /* ind_btn_tab_news_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 848101FF205002860021F05A /* ind_btn_tab_news_s.png */; };
+		84810206205002860021F05A /* ind_btn_tab_tool_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 84810200205002860021F05A /* ind_btn_tab_tool_n.png */; };
+		84810207205002860021F05A /* ind_btn_tab_tool_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 84810201205002860021F05A /* ind_btn_tab_tool_s.png */; };
+		84810208205002860021F05A /* ind_btn_tab_work_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 84810202205002860021F05A /* ind_btn_tab_work_n.png */; };
+		84810209205002860021F05A /* ind_btn_tab_work_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 84810203205002860021F05A /* ind_btn_tab_work_s.png */; };
 		84F14904204CF2C200D5E74F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F14903204CF2C200D5E74F /* AppDelegate.m */; };
 		84F1490C204CF2C200D5E74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F1490B204CF2C200D5E74F /* Assets.xcassets */; };
 		84F14912204CF2C200D5E74F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F14911204CF2C200D5E74F /* main.m */; };
@@ -17,6 +26,18 @@
 /* Begin PBXFileReference section */
 		69535DEEB8AB553FB72EFDC0 /* Pods-WTBaseCoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTBaseCoreDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTBaseCoreDemo/Pods-WTBaseCoreDemo.release.xcconfig"; sourceTree = "<group>"; };
 		78A3052C106CB561238685B6 /* libPods-WTBaseCoreDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTBaseCoreDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848101F42050016E0021F05A /* WTIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTIndexViewController.h; sourceTree = "<group>"; };
+		848101F52050016E0021F05A /* WTIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTIndexViewController.m; sourceTree = "<group>"; };
+		848101F7205001CD0021F05A /* WTCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCenterViewController.h; sourceTree = "<group>"; };
+		848101F8205001CD0021F05A /* WTCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCenterViewController.m; sourceTree = "<group>"; };
+		848101FA2050020E0021F05A /* WTMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMineViewController.h; sourceTree = "<group>"; };
+		848101FB2050020E0021F05A /* WTMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMineViewController.m; sourceTree = "<group>"; };
+		848101FE205002860021F05A /* ind_btn_tab_news_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ind_btn_tab_news_n.png; sourceTree = "<group>"; };
+		848101FF205002860021F05A /* ind_btn_tab_news_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ind_btn_tab_news_s.png; sourceTree = "<group>"; };
+		84810200205002860021F05A /* ind_btn_tab_tool_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ind_btn_tab_tool_n.png; sourceTree = "<group>"; };
+		84810201205002860021F05A /* ind_btn_tab_tool_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ind_btn_tab_tool_s.png; sourceTree = "<group>"; };
+		84810202205002860021F05A /* ind_btn_tab_work_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ind_btn_tab_work_n.png; sourceTree = "<group>"; };
+		84810203205002860021F05A /* ind_btn_tab_work_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ind_btn_tab_work_s.png; sourceTree = "<group>"; };
 		84F148FF204CF2C200D5E74F /* WTBaseCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTBaseCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F14902204CF2C200D5E74F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84F14903204CF2C200D5E74F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +69,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		848101F1205001580021F05A /* WTCenterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				848101F7205001CD0021F05A /* WTCenterViewController.h */,
+				848101F8205001CD0021F05A /* WTCenterViewController.m */,
+			);
+			path = WTCenterViewController;
+			sourceTree = "<group>";
+		};
+		848101F2205001580021F05A /* WTMineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				848101FA2050020E0021F05A /* WTMineViewController.h */,
+				848101FB2050020E0021F05A /* WTMineViewController.m */,
+			);
+			path = WTMineViewController;
+			sourceTree = "<group>";
+		};
+		848101F3205001580021F05A /* WTIndexViewController */ = {
+			isa = PBXGroup;
+			children = (
+				848101F42050016E0021F05A /* WTIndexViewController.h */,
+				848101F52050016E0021F05A /* WTIndexViewController.m */,
+			);
+			path = WTIndexViewController;
+			sourceTree = "<group>";
+		};
+		848101FD205002860021F05A /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				848101FE205002860021F05A /* ind_btn_tab_news_n.png */,
+				848101FF205002860021F05A /* ind_btn_tab_news_s.png */,
+				84810200205002860021F05A /* ind_btn_tab_tool_n.png */,
+				84810201205002860021F05A /* ind_btn_tab_tool_s.png */,
+				84810202205002860021F05A /* ind_btn_tab_work_n.png */,
+				84810203205002860021F05A /* ind_btn_tab_work_s.png */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
 		84F148F6204CF2C200D5E74F = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +134,10 @@
 				84F14903204CF2C200D5E74F /* AppDelegate.m */,
 				84F14918204CF3EF00D5E74F /* WTLaunchViewController.h */,
 				84F14919204CF3EF00D5E74F /* WTLaunchViewController.m */,
+				848101F3205001580021F05A /* WTIndexViewController */,
+				848101F1205001580021F05A /* WTCenterViewController */,
+				848101F2205001580021F05A /* WTMineViewController */,
+				848101FD205002860021F05A /* Res */,
 				84F1490B204CF2C200D5E74F /* Assets.xcassets */,
 				84F14910204CF2C200D5E74F /* Info.plist */,
 				84F14911204CF2C200D5E74F /* main.m */,
@@ -150,7 +215,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84810208205002860021F05A /* ind_btn_tab_work_n.png in Resources */,
+				84810205205002860021F05A /* ind_btn_tab_news_s.png in Resources */,
+				84810204205002860021F05A /* ind_btn_tab_news_n.png in Resources */,
+				84810209205002860021F05A /* ind_btn_tab_work_s.png in Resources */,
+				84810207205002860021F05A /* ind_btn_tab_tool_s.png in Resources */,
 				84F1490C204CF2C200D5E74F /* Assets.xcassets in Resources */,
+				84810206205002860021F05A /* ind_btn_tab_tool_n.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848101FC2050020E0021F05A /* WTMineViewController.m in Sources */,
+				848101F62050016E0021F05A /* WTIndexViewController.m in Sources */,
 				84F14912204CF2C200D5E74F /* main.m in Sources */,
 				84F14904204CF2C200D5E74F /* AppDelegate.m in Sources */,
+				848101F9205001CD0021F05A /* WTCenterViewController.m in Sources */,
 				84F1491A204CF3EF00D5E74F /* WTLaunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

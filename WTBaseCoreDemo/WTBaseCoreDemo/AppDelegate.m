@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 #import "WTLaunchViewController.h"
+#import "WTIndexViewController.h"
+#import "WTCenterViewController.h"
+#import "WTMineViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,12 +24,40 @@
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[WTLaunchViewController new]];
     self.window.rootViewController = nav;
+    [self initRoot];
     
     [self.window makeKeyAndVisible];
     
     return YES;
 }
 
+- (void)initRoot {
+    WTTabBarItem *itIndex = [[WTTabBarItem alloc] init];
+    itIndex.titleText = @"首页";
+    itIndex.normalImage = @"ind_btn_tab_work_n";
+    itIndex.selectImage = @"ind_btn_tab_work_s";
+    itIndex.vc = [[WTIndexViewController alloc] init];
+    
+    WTTabBarItem *itCenter = [[WTTabBarItem alloc] init];
+    itCenter.titleText = @"中间";
+    itCenter.normalImage = @"ind_btn_tab_news_n";
+    itCenter.selectImage = @"ind_btn_tab_news_s";
+    itCenter.vc = [[WTCenterViewController alloc] init];
+    
+    WTTabBarItem *itMine = [[WTTabBarItem alloc] init];
+    itMine.titleText = @"我的";
+    itMine.normalImage = @"ind_btn_tab_tool_n";
+    itMine.selectImage = @"ind_btn_tab_tool_s";
+    itMine.vc = [[WTMineViewController alloc] init];
+    
+    WTTabbarController *tab = [[WTTabbarController alloc] init];
+    tab.itemsArray = [NSArray arrayWithObjects:itIndex,itCenter,itMine, nil];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tab];
+    nav.navigationBarHidden = YES;
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
