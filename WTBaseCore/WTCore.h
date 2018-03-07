@@ -19,7 +19,7 @@
 #import "UIImageView+Category.h"
 #import "WTNavBar.h"
 #import "WTTextField.h"
-#import "WTViewController.h"
+#import "WTHttpUtil.h"
 
 //RETableViewManager
 #import "REActionBar.h"
@@ -34,8 +34,9 @@
 #import "WTEmptyCell.h"
 #import "WTCountDownButton.h"
 #import "WTCustomButton.h"
+
+#import "WTViewController.h"
 #import "WTFormViewController.h"
 #import "WTTabbarController.h"
-#import "WTViewController.h"
 
 #endif

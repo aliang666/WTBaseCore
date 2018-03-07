@@ -52,6 +52,10 @@ Pod::Spec.new do |s|
   ss.source_files = 'WTBaseCore/CoreController/**/*.{h,m,c,mm}'
   end
 
+  s.subspec 'CoreNetworking' do |ss|
+  ss.source_files = 'WTBaseCore/CoreNetworking/**/*.{h,m,c,mm}'
+  end
+
 
 
 
