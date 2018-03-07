@@ -53,11 +53,11 @@
 }
 
 - (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView {
-     return [UIImage imageNamed:[WTUtil strRelay:self.emptyDataIcon]];
+     return [UIImage imageNamed:[self.emptyDataIcon strRelay]];
 }
 
 - (NSAttributedString *)titleForEmptyDataSet:(UIScrollView *)scrollView {
-     NSString *title = [WTUtil strRelay:self.emptyDataTitle];
+     NSString *title = [self.emptyDataTitle strRelay];
      NSDictionary *attributes = @{
                                   NSFontAttributeName:[UIFont systemFontOfSize:16.0f],
                                   NSForegroundColorAttributeName:[UIColor darkGrayColor]
@@ -66,7 +66,7 @@
 }
 
 - (NSAttributedString *)descriptionForEmptyDataSet:(UIScrollView *)scrollView {
-     NSString *text = [WTUtil strRelay:self.emptyDataDesc];
+     NSString *text = [self.emptyDataDesc strRelay];
      
      NSMutableParagraphStyle *paragraph = [NSMutableParagraphStyle new];
      paragraph.lineBreakMode = NSLineBreakByWordWrapping;
