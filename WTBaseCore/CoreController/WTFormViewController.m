@@ -9,6 +9,8 @@
 #import "WTFormViewController.h"
 #import "UIView+Category.h"
 #import "WTUtil.h"
+#import "NSString+Category.h"
+
 @interface WTFormViewController ()<RETableViewManagerDelegate>
 
 @end
