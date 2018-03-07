@@ -34,6 +34,8 @@
 #import "WTEmptyCell.h"
 #import "WTCountDownButton.h"
 #import "WTCustomButton.h"
+#import "WTFormViewController.h"
 #import "WTTabbarController.h"
+#import "WTViewController.h"
 
 #endif
