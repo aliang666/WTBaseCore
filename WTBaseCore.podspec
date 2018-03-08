@@ -29,6 +29,9 @@ Pod::Spec.new do |s|
   s.source_files  = "WTBaseCore/*.{h,m}"
   s.resource     = 'WTBaseCore/CoreRes/WTBaseCore.bundle'
 
+  s.subspec 'CoreNetworking' do |ss|
+  ss.source_files = 'WTBaseCore/CoreNetworking/**/*.{h,m,c,mm}'
+  end
 
   s.subspec 'CoreUI' do |ss|
   ss.source_files = 'WTBaseCore/CoreUI/**/*.{h,m,c,mm}'
