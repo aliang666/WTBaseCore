@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "WTBaseCore"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "WT核心框架包"
 
   s.homepage     = "https://github.com/jienliang000/WTBaseCore"
@@ -29,12 +29,8 @@ Pod::Spec.new do |s|
   s.source_files  = "WTBaseCore/*.{h,m}"
   s.resource     = 'WTBaseCore/CoreRes/WTBaseCore.bundle'
 
-  s.subspec 'CoreNetworking' do |ss|
-  ss.source_files = 'WTBaseCore/CoreNetworking/**/*.{h,m,c,mm}'
-  end
-
-  s.subspec 'CoreUI' do |ss|
-  ss.source_files = 'WTBaseCore/CoreUI/**/*.{h,m,c,mm}'
+  s.subspec 'CoreString' do |ss|
+  ss.source_files = 'WTBaseCore/CoreString/**/*.{h,m,c,mm}'
   end
 
   s.subspec 'CoreUtil' do |ss|
