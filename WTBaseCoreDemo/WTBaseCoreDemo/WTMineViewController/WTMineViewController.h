@@ -6,7 +6,7 @@
 //  Copyright © 2018年 admin. All rights reserved.
 //
 
-#import <WTBaseCore/WTCore.h>
+#import <WTBaseCore/WTBaseCore.h>
 
 @interface WTMineViewController : WTViewController
 
