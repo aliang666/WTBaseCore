@@ -23,6 +23,7 @@
 
 //CoreString
 #import "NSString+Category.h"
+#import "NSString+WTRegex.h"
 
 //CoreUI
 #import "UIButton+Block.h"
