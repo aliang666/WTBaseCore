@@ -8,8 +8,34 @@
 
 #import "WTUtil.h"
 #import "NSString+Category.h"
+#import <MessageUI/MessageUI.h>
 
 @implementation WTUtil
++ (void)call:(NSString *)phoneNo
+{
+    NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",phoneNo]];
+    UIWebView*phoneCallWebView =[[UIWebView alloc] init];
+    [phoneCallWebView loadRequest:[NSURLRequest requestWithURL:phoneURL]];
+}
+
++ (MFMessageComposeViewController *)sendSMS:(NSString *)bodyOfMessage
+                              recipientList:(NSArray *)recipients
+                                   delegate:(UIViewController<MFMessageComposeViewControllerDelegate> *)delegate
+
+{
+    MFMessageComposeViewController *megVC = [[MFMessageComposeViewController alloc] init];
+    if([MFMessageComposeViewController canSendText]) {
+        
+        megVC.body = bodyOfMessage;
+        if (recipients != nil) {
+            megVC.recipients = recipients;
+        }
+        
+        megVC.messageComposeDelegate = delegate;
+        [delegate presentViewController:megVC animated:YES completion:^{ }];
+    }
+    return megVC;
+}
 
 + (UIImage *)createImageFromColor:(UIColor *)color
 {

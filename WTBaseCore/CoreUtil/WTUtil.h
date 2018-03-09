@@ -10,8 +10,30 @@
 #import <UIKit/UIKit.h>
 #import "WTAppDelegate.h"
 
-@interface WTUtil : NSObject
+class MFMessageComposeViewController;
+@protocol MFMessageComposeViewControllerDelegate;
 
+@interface WTUtil : NSObject
+/**
+ *    @brief    拨打电话
+ *
+ *    @param     phoneNo     电话号码
+ *
+ *    @return
+ */
++ (void)call:(NSString *)phoneNo;
+/**
+ *    @brief    发送短信
+ *
+ *    @param     bodyOfMessage     短信内容
+ *    @param     recipients      收信人
+ *    @param     delegate        代理
+ *
+ *    @return             发送短信视图
+ */
++ (MFMessageComposeViewController *)sendSMS:(NSString *)bodyOfMessage
+                              recipientList:(NSArray *)recipients
+                                   delegate:(UIViewController<MFMessageComposeViewControllerDelegate> *)delegate;
 /**
  *	@brief	通过颜色来生成一个纯色图
  *
