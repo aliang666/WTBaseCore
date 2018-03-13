@@ -12,6 +12,7 @@
 @property (nonatomic, assign) int itemStyle;//0文字/1图片
 @property (nonatomic, copy) NSString *itemTitle;
 @property (nonatomic, copy) UIImage *itemImage;
+@property (nonatomic, copy) UIColor *itemTextColor;
 @property (nonatomic,assign) CGSize imgSize;
 
 @property (copy, readwrite, nonatomic) void (^onClick)(void);

@@ -17,6 +17,7 @@
 - (id)init {
     if (self = [super init]) {
         self.imgSize = CGSizeMake(20, 20);
+        self.itemTextColor = [UIColor whiteColor];
     }
     return self;
 }
@@ -31,7 +32,7 @@
     self = [super initWithFrame:CGRectMake(0, 0, WTScreenWidth, WT_NavBar_Height)];
     if (self){
         self.titleFont = WTFontSys(18);
-        self.titleColor = WT_Color_TextBlackColor;
+        self.titleColor = [UIColor whiteColor];
         self.bgColor = WT_Color_BlueColor;
 
         titleLab = [[UILabel alloc] initWithFrame:CGRectMake(50, self.height-44, WTScreenWidth-100, 44)];
@@ -123,7 +124,7 @@
     [btn setTitle:item.itemTitle forState:UIControlStateNormal];
     [btn setBackgroundImage:[WTUtil createImageFromColor:ccc] forState:UIControlStateNormal];
     [btn setBackgroundImage:[WTUtil createImageFromColor:WTColor(231, 231, 231)] forState:UIControlStateHighlighted];
-    [btn setTitleColor:WTColorHex(0xff9600) forState:UIControlStateNormal];
+    [btn setTitleColor:item.itemTextColor forState:UIControlStateNormal];
     [btn setImageEdgeInsets:UIEdgeInsetsMake(0, offsetX, 0, offsetX)];
     btn.titleLabel.font = WTFontSys(15);
     btn.barItem = item;
