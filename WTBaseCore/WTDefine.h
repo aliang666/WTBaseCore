@@ -45,6 +45,18 @@
  *     @brief     view默认背景色.
  */
 #define WT_Color_ViewBackGround  WTColorHex(0xf4f4f4)
+/**
+ *     @brief     文本黑色字体颜色.
+ */
+#define WT_Color_TextBlackColor  WTColorHex(0x333333)
+/**
+ *     @brief     文本灰色字体颜色.
+ */
+#define WT_Color_TextGrayColor  WTColorHex(0x666666)
+/**
+ *     @brief     导航栏蓝色
+ */
+#define WT_Color_BlueColor   WTColorHex(0x3086f9)
 
 /**
  *    @brief    push一个viewController

@@ -31,8 +31,8 @@
     self = [super initWithFrame:CGRectMake(0, 0, WTScreenWidth, WT_NavBar_Height)];
     if (self){
         self.titleFont = WTFontSys(18);
-        self.titleColor = [UIColor blackColor];
-        self.bgColor = [UIColor whiteColor];
+        self.titleColor = WT_Color_TextBlackColor;
+        self.bgColor = WT_Color_BlueColor;
 
         titleLab = [[UILabel alloc] initWithFrame:CGRectMake(50, self.height-44, WTScreenWidth-100, 44)];
         titleLab.textAlignment = NSTextAlignmentCenter;
