@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navBar.title = @"中间页面";
+    self.navBar.title = @"我的页面";
     self.navBar.leftItemList = nil;
 }
 

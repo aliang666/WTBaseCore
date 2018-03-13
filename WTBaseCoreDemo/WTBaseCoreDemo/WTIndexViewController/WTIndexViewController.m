@@ -18,5 +18,10 @@
     [super viewDidLoad];
     self.navBar.leftItemList = nil;
     self.navBar.title = @"首页";
+    
+    WTBarItem *it = [[WTBarItem alloc] init];
+    it.itemTitle = @"更多";
+    it.itemStyle = 0;
+    self.navBar.rightItemList = [NSArray arrayWithObject:it];
 }
 @end
