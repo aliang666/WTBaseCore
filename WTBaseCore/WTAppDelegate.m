@@ -6,12 +6,17 @@
 //  Copyright (c) 2017年 jienliang. All rights reserved.
 //
 #import "WTAppDelegate.h"
+#import "IQKeyboardManager.h"
 
 @interface WTAppDelegate ()
 @end
 
 @implementation WTAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //键盘处理
+    [IQKeyboardManager sharedManager].enable = YES;
+    [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
     //创建主窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
