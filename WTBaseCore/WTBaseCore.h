@@ -20,6 +20,7 @@
 
 //CoreNetworking
 #import "WTHttpUtil.h"
+#import "WTNetworkHelper.h"
 
 //CoreString
 #import "NSString+Category.h"
