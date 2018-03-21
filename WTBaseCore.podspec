@@ -62,6 +62,9 @@ Pod::Spec.new do |s|
   ss.source_files = 'WTBaseCore/CoreNetworking/**/*.{h,m,c,mm}'
   end
 
+s.subspec 'TPKeyboardAvoiding' do |ss|
+ss.source_files = 'WTBaseCore/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
+end
 
 
 

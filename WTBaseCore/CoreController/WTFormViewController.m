@@ -29,7 +29,7 @@
 
 - (void)initView
 {
-     _formTable = [[UITableView alloc] initWithFrame:CGRectMake(0, WT_NavBar_Height, WTScreenWidth, WTScreenHeight-WT_NavBar_Height) style:UITableViewStylePlain];
+     _formTable = [[TPKeyboardAvoidingTableView alloc] initWithFrame:CGRectMake(0, WT_NavBar_Height, WTScreenWidth, WTScreenHeight-WT_NavBar_Height) style:UITableViewStylePlain];
      _formTable.estimatedRowHeight = 0;
      _formTable.estimatedSectionHeaderHeight = 0;
      _formTable.estimatedSectionFooterHeight = 0;
@@ -41,6 +41,11 @@
      _formTable.emptyDataSetSource = self;
      _formTable.emptyDataSetDelegate = self;
      _formTable.tableFooterView = [UIView new];
+#ifdef __IPHONE_11_0
+    if ([_formTable respondsToSelector:@selector(setContentInsetAdjustmentBehavior:)]) {
+        _formTable.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    }
+#endif
      [self.view addSubview:_formTable];
      
      _formManager = [[RETableViewManager alloc] initWithTableView:_formTable];
