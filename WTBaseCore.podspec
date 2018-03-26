@@ -59,13 +59,12 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'EXT' do |ss|
-    ss.source_files = 'WTBaseCore/CoreUI/EXT/**/*.{h,m,c,mm}'
-    s.subspec 'RETableViewManager' do |sss|
-    ss.source_files = 'WTBaseCore/EXT/RETableViewManager/**/*.{h,m,c,mm}'
+    ss.subspec 'RETableViewManager' do |sss|
+    sss.source_files = 'WTBaseCore/EXT/RETableViewManager/**/*.{h,m,c,mm}'
     end
 
-    s.subspec 'TPKeyboardAvoiding' do |sss|
-    ss.source_files = 'WTBaseCore/EXT/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
+    ss.subspec 'TPKeyboardAvoiding' do |sss|
+    sss.source_files = 'WTBaseCore/EXT/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
     end
   end
 
