@@ -59,11 +59,12 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'EXT' do |ss|
-
     s.subspec 'RETableViewManager' do |sss|
     ss.source_files = 'WTBaseCore/EXT/RETableViewManager/**/*.{h,m,c,mm}'
     end
+  end
 
+  s.subspec 'EXT' do |ss|
     s.subspec 'TPKeyboardAvoiding' do |sss|
     ss.source_files = 'WTBaseCore/EXT/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
     end
