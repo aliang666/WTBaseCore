@@ -50,10 +50,6 @@ Pod::Spec.new do |s|
   ss.source_files = 'WTBaseCore/CoreCell/**/*.{h,m,c,mm}'
   end
 
-  s.subspec 'RETableViewManager' do |ss|
-  ss.source_files = 'WTBaseCore/RETableViewManager/**/*.{h,m,c,mm}'
-  end
-
   s.subspec 'CoreController' do |ss|
   ss.source_files = 'WTBaseCore/CoreController/**/*.{h,m,c,mm}'
   end
@@ -62,10 +58,15 @@ Pod::Spec.new do |s|
   ss.source_files = 'WTBaseCore/CoreNetworking/**/*.{h,m,c,mm}'
   end
 
-s.subspec 'TPKeyboardAvoiding' do |ss|
-ss.source_files = 'WTBaseCore/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
-end
+  s.subspec 'EXT' do |ss|
 
+    s.subspec 'RETableViewManager' do |sss|
+    ss.source_files = 'WTBaseCore/EXT/RETableViewManager/**/*.{h,m,c,mm}'
+    end
 
+    s.subspec 'TPKeyboardAvoiding' do |sss|
+    ss.source_files = 'WTBaseCore/EXT/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
+    end
+  end
 
 end
