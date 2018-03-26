@@ -53,6 +53,7 @@
 
 //Vendor
 #import "UINavigationController+FDFullscreenPopGesture.h"
-
+//EXT
+#import "UITextView+Placeholder.h"
 
 #endif
