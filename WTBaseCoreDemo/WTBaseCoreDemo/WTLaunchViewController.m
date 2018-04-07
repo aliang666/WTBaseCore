@@ -10,7 +10,7 @@
 
 @interface WTLaunchViewController ()
 {
-    WTCountDownButton *_countDownCode;
+    WTCountDownButton *_countDownCode; 
 }
 @end
 
