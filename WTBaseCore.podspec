@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'IQKeyboardManager', '~> 5.0.7'
+  s.dependency 'WTAppDelegate', '~> 0.0.1'
   s.dependency 'Aspects',  '~> 1.4.1'
   s.dependency 'XAspect',  '~> 1.0.5'
 
