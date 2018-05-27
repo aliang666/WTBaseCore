@@ -58,10 +58,8 @@ Pod::Spec.new do |s|
   ss.source_files = 'WTBaseCore/CoreNetworking/**/*.{h,m,c,mm}'
   end
 
-  s.subspec 'EXT' do |ss|
-    ss.subspec 'RETableViewManager' do |sss|
-    sss.source_files = 'WTBaseCore/EXT/RETableViewManager/**/*.{h,m,c,mm}'
-    end
+  s.subspec 'RETableViewManager' do |ss|
+    ss.source_files = 'WTBaseCore/RETableViewManager/**/*.{h,m,c,mm}'
   end
 
 end
