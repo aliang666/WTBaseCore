@@ -62,4 +62,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'WTBaseCore/RETableViewManager/**/*.{h,m,c,mm}'
   end
 
+  s.subspec 'WTAppDelegate' do |ss|
+    ss.source_files = 'WTBaseCore/WTAppDelegate/**/*.{h,m,c,mm}'
+  end
+
+
 end
