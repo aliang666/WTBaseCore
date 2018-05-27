@@ -62,15 +62,6 @@ Pod::Spec.new do |s|
     ss.subspec 'RETableViewManager' do |sss|
     sss.source_files = 'WTBaseCore/EXT/RETableViewManager/**/*.{h,m,c,mm}'
     end
-
-    ss.subspec 'TPKeyboardAvoiding' do |sss|
-    sss.source_files = 'WTBaseCore/EXT/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
-    end
-
-    ss.subspec 'UITextView+Placeholder' do |sss|
-    sss.source_files = 'WTBaseCore/EXT/UITextView+Placeholder/**/*.{h,m,c,mm}'
-    end
-
   end
 
 end
