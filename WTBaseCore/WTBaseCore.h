@@ -55,5 +55,5 @@
 #import "UINavigationController+FDFullscreenPopGesture.h"
 //EXT
 #import "UITextView+Placeholder.h"
-
+#import "MJExtension.h"
 #endif
