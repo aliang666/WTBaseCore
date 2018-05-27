@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.dependency 'IQKeyboardManager', '~> 5.0.7'
   s.dependency 'Aspects',  '~> 1.4.1'
   s.dependency 'XAspect',  '~> 1.0.5'
+  s.dependency 'MJExtension',  '~> 3.0.13'
 
   s.source       = { :git => "https://github.com/aliang666/WTBaseCore.git", :tag => "#{s.version}" }
   s.source_files  = "WTBaseCore/*.{h,m}"
