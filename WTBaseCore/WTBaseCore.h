@@ -50,6 +50,7 @@
 //WTBaseCore
 #import "WTAppDelegate.h"
 #import "WTDefine.h"
+#import "WTLanguageUtil.h"
 
 //Vendor
 #import "UINavigationController+FDFullscreenPopGesture.h"
