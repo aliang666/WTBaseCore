@@ -11,9 +11,8 @@
 #import "RETableViewSection.h"
 #import "WTDefine.h"
 #import "UIScrollView+EmptyDataSet.h"
-#import "TPKeyboardAvoidingTableView.h"
 @interface WTFormViewController : WTViewController<DZNEmptyDataSetSource,DZNEmptyDataSetDelegate>
-@property (nonatomic, strong) TPKeyboardAvoidingTableView *formTable;
+@property (nonatomic, strong) UITableView *formTable;
 @property (nonatomic, strong) RETableViewManager *formManager;
 
 //空数据相关属性

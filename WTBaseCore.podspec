@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.5"
   s.summary      = "WT核心框架包"
 
-  s.homepage     = "https://github.com/jienliang000/WTBaseCore"
+  s.homepage     = "https://github.com/aliang666/WTBaseCore"
 
   s.license      = "MIT"
   s.author             = { "jienliang000" => "jienliang000@163.com" }
@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'IQKeyboardManager', '~> 5.0.7'
-  s.dependency 'WTAppDelegate', '~> 0.0.1'
   s.dependency 'Aspects',  '~> 1.4.1'
   s.dependency 'XAspect',  '~> 1.0.5'
+  s.dependency 'MJExtension',  '~> 3.0.13'
 
-  s.source       = { :git => "https://github.com/jienliang000/WTBaseCore.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/aliang666/WTBaseCore.git", :tag => "#{s.version}" }
   s.source_files  = "WTBaseCore/*.{h,m}"
   s.resource     = 'WTBaseCore/CoreRes/WTBaseCore.bundle'
 
@@ -59,19 +59,13 @@ Pod::Spec.new do |s|
   ss.source_files = 'WTBaseCore/CoreNetworking/**/*.{h,m,c,mm}'
   end
 
-  s.subspec 'EXT' do |ss|
-    ss.subspec 'RETableViewManager' do |sss|
-    sss.source_files = 'WTBaseCore/EXT/RETableViewManager/**/*.{h,m,c,mm}'
-    end
-
-    ss.subspec 'TPKeyboardAvoiding' do |sss|
-    sss.source_files = 'WTBaseCore/EXT/TPKeyboardAvoiding/**/*.{h,m,c,mm}'
-    end
-
-    ss.subspec 'UITextView+Placeholder' do |sss|
-    sss.source_files = 'WTBaseCore/EXT/UITextView+Placeholder/**/*.{h,m,c,mm}'
-    end
-
+  s.subspec 'RETableViewManager' do |ss|
+    ss.source_files = 'WTBaseCore/RETableViewManager/**/*.{h,m,c,mm}'
   end
+
+  s.subspec 'WTAppDelegate' do |ss|
+    ss.source_files = 'WTBaseCore/WTAppDelegate/**/*.{h,m,c,mm}'
+  end
+
 
 end
