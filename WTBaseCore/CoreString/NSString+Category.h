@@ -20,18 +20,6 @@
  */
 - (NSString *)trim;
 /**
- *    @brief    判断是否串是否为空.
- *
- *    @return    BOOL.
- */
-- (BOOL)strNilOrEmpty;
-/**
- *    @brief    格式化字符串.
- *
- *    @return    字符串实例.
- */
-- (NSString *)strRelay;
-/**
  *     @brief     字符串中是否含有emoji字符.
  *
  *     @return     BOOL

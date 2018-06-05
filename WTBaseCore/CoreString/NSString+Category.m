@@ -10,28 +10,6 @@
 #import <CommonCrypto/CommonDigest.h>
 
 @implementation NSString (WTBaseCore)
-- (BOOL)strNilOrEmpty {
-    return self == nil
-    || self == NULL
-    || [self isKindOfClass:[NSNull class]]
-    ||([self respondsToSelector:@selector(length)]
-       && [(NSData *)self length] == 0)
-    || ([self respondsToSelector:@selector(count)]
-        && [(NSArray *)self count] == 0);
-}
-
-- (NSString *)strRelay
-{
-    if([self strNilOrEmpty]){
-        return @"";
-    }
-    else if([self isKindOfClass:[NSString class]]){
-        return self;
-    } else if ([self isKindOfClass:[NSNumber class]]) {
-        return [((NSNumber *)self) stringValue];
-    }
-    return [self trim];
-}
 
 - (NSString *)trim {
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];

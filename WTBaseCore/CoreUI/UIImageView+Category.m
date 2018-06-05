@@ -13,7 +13,7 @@
 
 @implementation UIImageView (WTBaseCore)
 - (void)setWebImageWithUrl:(NSString *)url placeHolder:(UIImage *)placeImg {
-    [self yy_setImageWithURL:[NSURL URLWithString:[url strRelay]] placeholder:placeImg];
+    [self yy_setImageWithURL:[NSURL URLWithString:[WTUtil strRelay:url]] placeholder:placeImg];
 }
 @end
 

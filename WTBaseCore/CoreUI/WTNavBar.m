@@ -51,7 +51,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.backgroundColor = self.bgColor;
-    titleLab.text = [self.title strRelay];
+    titleLab.text = [WTUtil strRelay:self.title];
     titleLab.font = self.titleFont;
     titleLab.textColor = self.titleColor;
 

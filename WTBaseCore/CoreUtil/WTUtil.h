@@ -15,6 +15,19 @@
 
 @interface WTUtil : NSObject
 /**
+ *    @brief    判断是否串是否为空.
+ *
+ *    @return    BOOL.
+ */
++ (BOOL)strNilOrEmpty:(NSString *)str;
+/**
+ *    @brief    格式化字符串.
+ *
+ *    @return    字符串实例.
+ */
++ (NSString *)strRelay:(NSString *)str;
+
+/**
  *    @brief    拨打电话
  *
  *    @param     phoneNo     电话号码

@@ -11,6 +11,29 @@
 #import <MessageUI/MessageUI.h>
 
 @implementation WTUtil
++ (BOOL)strNilOrEmpty:(NSString *)str {
+    return str == nil
+    || str == NULL
+    || [str isKindOfClass:[NSNull class]]
+    ||([str respondsToSelector:@selector(length)]
+       && [(NSData *)str length] == 0)
+    || ([str respondsToSelector:@selector(count)]
+        && [(NSArray *)str count] == 0);
+}
+
++ (NSString *)strRelay:(NSString *)str
+{
+    if([WTUtil strNilOrEmpty:str]){
+        return @"";
+    }
+    else if([str isKindOfClass:[NSString class]]){
+        return str;
+    } else if ([str isKindOfClass:[NSNumber class]]) {
+        return [((NSNumber *)str) stringValue];
+    }
+    return [str trim];
+}
+
 + (void)call:(NSString *)phoneNo
 {
     NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",phoneNo]];

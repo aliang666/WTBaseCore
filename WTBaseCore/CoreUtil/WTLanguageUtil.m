@@ -7,7 +7,8 @@
 //
 
 #import "WTLanguageUtil.h"
-
+#import "NSString+Category.h"
+#import "WTUtil.h"
 @implementation WTLanguageUtil
 + (instancetype)shareInstance
 {
@@ -24,7 +25,8 @@
     if ([self getCurrentAppLanguage]==WTAppLanguage_EN) {
         path = [[NSBundle mainBundle] pathForResource:@"en" ofType:@"lproj"];
     }
-    return [[NSBundle bundleWithPath:path] localizedStringForKey:key value:nil table:@"Language"];
+    NSString *value = [[NSBundle bundleWithPath:path] localizedStringForKey:key value:nil table:@"Language"];
+    return [WTUtil strRelay:value];
 }
 
 - (WTAppLanguageType)getCurrentAppLanguage {
