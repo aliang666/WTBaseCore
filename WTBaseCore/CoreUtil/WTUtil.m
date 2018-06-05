@@ -41,6 +41,14 @@
     [phoneCallWebView loadRequest:[NSURLRequest requestWithURL:phoneURL]];
 }
 
++ (NSString *)toXingPhone:(NSString *)phone {
+    NSString *telPhone = [WTUtil strRelay:phone];
+    if (telPhone.length > 7) {
+        telPhone = [telPhone stringByReplacingCharactersInRange:NSMakeRange(3,4 ) withString:@"****"];
+    }
+    return telPhone;
+}
+
 + (MFMessageComposeViewController *)sendSMS:(NSString *)bodyOfMessage
                               recipientList:(NSArray *)recipients
                                    delegate:(UIViewController<MFMessageComposeViewControllerDelegate> *)delegate

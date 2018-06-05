@@ -36,6 +36,14 @@
  */
 + (void)call:(NSString *)phoneNo;
 /**
+ *    @brief    手机号中间4位*号表示
+ *
+ *    @param     phoneNo     电话号码
+ *
+ *    @return
+ */
++ (NSString *)toXingPhone:(NSString *)phone;
+/**
  *    @brief    发送短信
  *
  *    @param     bodyOfMessage     短信内容
