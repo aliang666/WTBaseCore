@@ -8,6 +8,9 @@
 #import "WTBaseCell.h"
 #import "WTDefine.h"
 #import "UIView+Category.h"
+#import "WTBoundle.h"
+#import "NSBundle+WTBaseCore.h"
+
 @implementation WTBaseItem
 - (id)init{
      if (self = [super init]) {
@@ -43,7 +46,7 @@
      [self.contentView addSubview:bottomLineImg];
      
      arrowImg = [[UIImageView alloc] initWithFrame:CGRectMake(WTScreenWidth-12-11, (48-11)/2, 11, 11)];
-     [arrowImg setImage:[UIImage imageNamed:@"profile_morearrow"]];
+     [arrowImg setImage:[NSBundle getImageFromBoundle:@"Arrow_Right"]];
      [self.contentView addSubview:arrowImg];
 }
 
