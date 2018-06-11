@@ -37,5 +37,5 @@
  *	@return	字符串.
  */
 - (NSString *)md5;
-
+- (BOOL)stringIsNumber;
 @end

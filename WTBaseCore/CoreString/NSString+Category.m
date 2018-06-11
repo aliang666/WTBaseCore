@@ -29,6 +29,18 @@
             ];
 }
 
+- (BOOL)stringIsNumber {
+    NSCharacterSet*cs;
+    cs = [[NSCharacterSet characterSetWithCharactersInString:@"0123456789"] invertedSet];
+    NSString*filtered = [[self componentsSeparatedByCharactersInSet:cs] componentsJoinedByString:@""];
+    BOOL basicTest = [self isEqualToString:filtered];
+    if(!basicTest) {
+        return NO;
+        
+    }
+    return YES;
+}
+
 - (BOOL)stringContainsEmoji {
     __block BOOL returnValue = NO;
     
