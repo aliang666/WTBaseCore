@@ -36,7 +36,7 @@
     WTBarItem *item = [[WTBarItem alloc] init];
     item.itemStyle = 1;
     item.itemImage = [NSBundle getImageFromBoundle:@"back"];
-    item.imgSize = CGSizeMake(20, 20);
+    item.imgSize = CGSizeMake(30, 30);
     item.onClick = ^(void) {
         [bself backBtnPress];
     };
