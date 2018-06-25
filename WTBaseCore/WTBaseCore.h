@@ -38,6 +38,8 @@
 //CoreUtil
 #import "WTFile.h"
 #import "WTUtil.h"
+#import "WTDateUtil.h"
+#import "WTLanguageUtil.h"
 
 //RETableViewManager
 #import "REActionBar.h"
@@ -50,7 +52,6 @@
 //WTBaseCore
 #import "WTAppDelegate.h"
 #import "WTDefine.h"
-#import "WTLanguageUtil.h"
 
 //Vendor
 #import "UINavigationController+FDFullscreenPopGesture.h"
